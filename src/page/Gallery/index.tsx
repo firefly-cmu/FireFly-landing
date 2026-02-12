@@ -1,6 +1,7 @@
 import { Layout, MarginContainer } from "../../components/Layout/Layout";
 import { MarginGradientBox } from "../../components/Layout/Box";
 import Header from "../../components/Layout/Header";
+import { asset } from "../../utils/asset";
 
 import { DateRange } from "@mui/icons-material";
 
@@ -15,12 +16,12 @@ const Gallery = () => {
                 Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, 
                 ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. `,
       picture: [
-        "/picture/gallery/Picture1.jpg",
-        "/picture/gallery/Picture2.jpg",
-        "/picture/gallery/Picture3.jpg",
-        "/picture/gallery/Picture4.jpg",
-        "/picture/gallery/Picture5.jpg",
-        "/picture/gallery/Picture6.jpg",
+        asset("picture/gallery/Picture1.jpg"),
+        asset("picture/gallery/Picture2.jpg"),
+        asset("picture/gallery/Picture3.jpg"),
+        asset("picture/gallery/Picture4.jpg"),
+        asset("picture/gallery/Picture5.jpg"),
+        asset("picture/gallery/Picture6.jpg"),
       ],
     },
     {
@@ -29,14 +30,14 @@ const Gallery = () => {
                 Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, 
                 ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. `,
       picture: [
-        "/picture/gallery/Picture7.jpg",
-        "/picture/gallery/Picture8.jpg",
-        "/picture/gallery/Picture6.jpg",
-        "/picture/team/commu1.jpg",
-        "/picture/team/commu2.jpg",
-        "/picture/team/commu3.jpg",
-        "/picture/gallery/Picture1.jpg",
-        "/picture/gallery/Picture2.jpg",
+        asset("picture/gallery/Picture7.jpg"),
+        asset("picture/gallery/Picture8.jpg"),
+        asset("picture/gallery/Picture6.jpg"),
+        asset("picture/team/commu1.jpg"),
+        asset("picture/team/commu2.jpg"),
+        asset("picture/team/commu3.jpg"),
+        asset("picture/gallery/Picture1.jpg"),
+        asset("picture/gallery/Picture2.jpg"),
       ],
     },
     {
@@ -45,9 +46,9 @@ const Gallery = () => {
                 Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla, mattis ligula consectetur, 
                 ultrices mauris. Maecenas vitae mattis tellus. Nullam quis imperdiet augue. Vestibulum auctor ornare leo, non suscipit magna interdum eu. `,
       picture: [
-        "/picture/team/team1.jpg",
-        "/picture/team/team2.jpg",
-        "/picture/team/team3.jpg",
+        asset("picture/team/team1.jpg"),
+        asset("picture/team/team2.jpg"),
+        asset("picture/team/team3.jpg"),
       ],
     },
   ];

@@ -1,6 +1,7 @@
 import { Layout, MarginContainer } from "../../components/Layout/Layout";
 import { MarginGradientBox } from "../../components/Layout/Box";
 import Header from "../../components/Layout/Header";
+import { asset } from "../../utils/asset";
 
 import { OpenInBrowser, Article } from "@mui/icons-material";
 const Publications = () => {
@@ -9,7 +10,7 @@ const Publications = () => {
                                 improving wildfire monitoring and response.`;
   const Publications = [
     {
-      picture: "/picture/publication/UAV.png",
+      picture: asset("picture/publication/UAV.png"),
       topic:
         "FireFly Project: UAV Development for Distributed Sensing of Forest Fires",
       describe: `Puttapirat, P.,Woradit, K.,Hesse, H.andBhatia, D.(2024)FireFly Project: UAV Development for 
@@ -19,7 +20,7 @@ const Publications = () => {
       path: "https://ieeexplore.ieee.org/document/10556892",
     },
     {
-      picture: "/picture/publication/monitoring.png",
+      picture: asset("picture/publication/monitoring.png"),
       topic:
         "FIREfly Project: Forest Fire Monitoring and Prediction Using Machine Learning.",
       describe: `Ong, S., Ang, H., Lian, E., Tan, T., Tan, K., Tay, E., Yau, P., Hesse, H.,Woradit, K. andBhatia, D.(2024)

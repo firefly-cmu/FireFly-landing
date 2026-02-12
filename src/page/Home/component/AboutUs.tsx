@@ -58,7 +58,7 @@ const AboutUs: React.FC = () => {
         <Card />
       </div>
       <img
-        src="/cardimage/FIREfly Overview 2.png"
+        src={`${import.meta.env.BASE_URL}cardimage/FIREfly Overview 2.png`}
         alt="overview"
         className="w-full h-auto mt-8 mb-12 flex justify-center items-center flex-wrap"
       />

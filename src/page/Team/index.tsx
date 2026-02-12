@@ -2,16 +2,18 @@ import { Layout, MarginContainer } from "../../components/Layout/Layout";
 import { MarginGradientBox } from "../../components/Layout/Box";
 import Header from "../../components/Layout/Header";
 import MemberAccording from "./component/memberAccording";
+import { asset } from "../../utils/asset";
+
 const Team = () => {
   const ImgTeamList = [
-    "/picture/team/team1.jpg",
-    "/picture/team/team2.jpg",
-    "/picture/team/team3.jpg",
+    asset("picture/team/team1.jpg"),
+    asset("picture/team/team2.jpg"),
+    asset("picture/team/team3.jpg"),
   ];
   const ImgCommunityList = [
-    "/picture/team/commu1.jpg",
-    "/picture/team/commu2.jpg",
-    "/picture/team/commu3.jpg",
+    asset("picture/team/commu1.jpg"),
+    asset("picture/team/commu2.jpg"),
+    asset("picture/team/commu3.jpg"),
   ];
   const OurteamDescrib = `Project FireFly brings together a diverse team of researchers and engineers from RMIT Vietnam, Chiang Mai University, 
                           and the University of Glasgow Singapore. \n\n Our multidisciplinary team is committed to innovating and implementing 
@@ -19,7 +21,7 @@ const Team = () => {
                           ecosystems and human communities.`;
   const TeamMemberDescrib = [
     {
-      picture: "/picture/team/dinesh.jpg",
+      picture: asset("picture/team/dinesh.jpg"),
       name: "Dr. Dinesh Bhatia",
       describe: `Senior Lecturer in Aviation at RMIT Vietnam. Over 8 years of research and teaching background in Aerospace, Aviation, 
                   and Mechanical Engineering at several prestigious institutions. Involved in path breaking research in carbon emission 
@@ -29,7 +31,7 @@ const Team = () => {
                   renewable energy sources, eco-friendly material development and carbon neutral solutions to agriculture and forestry.`,
     },
     {
-      picture: "/picture/team/kampol.jpg",
+      picture: asset("picture/team/kampol.jpg"),
       name: "Dr. Kampol Woradit",
       describe: `Assistant Professor Kampol Woradit is with the Department of Computer Engineering, Chiang Mai University, Thailand. 
                 He is also the Head of Cybersecurity at CMU. He received a PhD in Electrical Engineering from Chulalongkorn University in 2010 
@@ -39,7 +41,7 @@ const Team = () => {
                 elderly who have mild cognitive impairment.`,
     },
     {
-      picture: "/picture/team/henrik.jpg",
+      picture: asset("picture/team/henrik.jpg"),
       name: "Dr. Henrik Hesse",
       describe: `Associate Professor in Aerospace Engineering with the University of Glasgow in Singapore. He received a PhD from 
                 Imperial College London (2013) where he investigated reduced-order modelling approaches for load control in flexible aircraft 
@@ -49,7 +51,7 @@ const Team = () => {
                 of their practical application.`,
     },
     {
-      picture: "/picture/team/pargorn.jpg",
+      picture: asset("picture/team/pargorn.jpg"),
       name: "Pargorn Puttapirat",
       describe: `PhD student with the Department of Computer Engineering, Chiang Mai University, Thailand. He received his M.Eng from the 
                 Department of Computer Science and Technology at Xi’an Jiaotong University under the supervision of Professor Chen Li, in the 

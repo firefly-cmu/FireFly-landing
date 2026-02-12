@@ -16,7 +16,7 @@ const Dashboard: React.FC = () => {
           className="rounded-lg bg-cover bg-center bg-no-repeat overflow-hidden"
         >
           <img
-            src="/picture/dashboard/dashboard-pin-decor.png"
+            src={`${import.meta.env.BASE_URL}picture/dashboard/dashboard-pin-decor.png`}
             className="absolute bottom-0 right-0 hidden lg:block"
           ></img>
           <div className="py-10 px-5 lg:px-5 lg:py-20 lg:flex justify-center gap-5">

@@ -1,4 +1,5 @@
 import MissionData from "../../../constants/data/mission.json";
+import { asset } from "../../../utils/asset";
 
 interface Mission {
   title: string;
@@ -7,19 +8,19 @@ interface Mission {
 
 const Mission = () => {
   const data: Mission = MissionData;
-  const decorationPath = "/picture/landing-decor/";
+  const decorationPath = "picture/landing-decor/";
   return (
     <div className="relative w-full h-auto bg-color3 flex flex-col items-center px-6 py-12">
       <div className="max-w-4xl text-center mt-2">
         {/* Quotation Marks */}
         <div className="relative px-4 hidden lg:block">
           <img
-            src={decorationPath + "left-quote.png"}
+            src={asset(decorationPath + "left-quote.png")}
             alt="Quote Left"
             className="absolute left-[-20px] md:left-[-50px] lg:left-[-150px] top-0"
           />
           <img
-            src={decorationPath + "right-quote.png"}
+            src={asset(decorationPath + "right-quote.png")}
             alt="Quote Right"
             className="absolute right-[-20px] md:right-[-50px] lg:right-[-150px] top-0"
           />
@@ -36,12 +37,12 @@ const Mission = () => {
       {/* Trees Illustration */}
       <div className="flex justify-between w-full max-w-8xl absolute bottom-0 left-0 right-0 gap-4">
         <img
-          src={decorationPath + "tree1.png"}
+          src={asset(decorationPath + "tree1.png")}
           alt="Left Trees"
           className="h-12 lg:h-16 w-auto  "
         />
         <img
-          src={decorationPath + "tree2.png"}
+          src={asset(decorationPath + "tree2.png")}
           alt="Right Trees"
           className="h-12 lg:h-16 w-auto"
         />

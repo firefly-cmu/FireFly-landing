@@ -31,12 +31,12 @@ function Navbar() {
       <div className="flex items-center gap-2">
         {path == "/" ? (
           isScrolled ? (
-            <img src="/Subtract.svg" alt="Scrolled Logo" className="h-8" />
+            <img src={`${import.meta.env.BASE_URL}Subtract.svg`} alt="Scrolled Logo" className="h-8" />
           ) : (
-            <img src="/firefly-logo.svg" alt="Original Logo" className="h-8" />
+            <img src={`${import.meta.env.BASE_URL}firefly-logo.svg`} alt="Original Logo" className="h-8" />
           )
         ) : (
-          <img src="/Subtract.svg" alt="Scrolled Logo" className="h-8" />
+          <img src={`${import.meta.env.BASE_URL}Subtract.svg`} alt="Scrolled Logo" className="h-8" />
         )}
         <h1
           className={classNames("text-2xl font-bold tracking-wide", {

@@ -13,7 +13,7 @@ const Other: React.FC = () => {
           <div key={index} className="mb-10 w-full md:w-1/2 lg:w-1/3">
             <div className="relative">
               <img
-                src="/other/BGButton.png"
+                src={`${import.meta.env.BASE_URL}other/BGButton.png`}
                 alt="background"
                 className="h-48 md:h-72 w-full object-cover rounded-xl shadow-lg"
               />

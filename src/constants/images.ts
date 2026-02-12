@@ -1,38 +1,40 @@
+import { asset } from "../utils/asset";
+
 export const Coverimage = [
-  "/coverslide/Cover (SlideShow).png",
-  "/coverslide/Property 1=2.png",
-  "/coverslide/Property 1=3.png",
-  "/coverslide/Property 1=4.png",
-  "/coverslide/Property 1=5.png",
+  asset("coverslide/Cover (SlideShow).png"),
+  asset("coverslide/Property 1=2.png"),
+  asset("coverslide/Property 1=3.png"),
+  asset("coverslide/Property 1=4.png"),
+  asset("coverslide/Property 1=5.png"),
 ];
 
 export const Logo = [
-  "/partnerlogo/Rmit.png",
-  "/partnerlogo/Cmu.png",
-  "/partnerlogo/Glasgow.png",
-  "/partnerlogo/Apnic.png",
+  asset("partnerlogo/Rmit.png"),
+  asset("partnerlogo/Cmu.png"),
+  asset("partnerlogo/Glasgow.png"),
+  asset("partnerlogo/Apnic.png"),
 ];
 
-const landingdecorationPath = "/picture/landing-decor/";
+const landingdecorationPath = "picture/landing-decor/";
 export const cardData = [
   {
-    image: landingdecorationPath + "drone.png",
+    image: asset(landingdecorationPath + "drone.png"),
     description: "UAV-Based system for remote area surveying",
   },
   {
-    image: landingdecorationPath + "station.png",
+    image: asset(landingdecorationPath + "station.png"),
     description: "Design of ground-based IoT sensors for smoke detection",
   },
   {
-    image: landingdecorationPath + "signal.png",
+    image: asset(landingdecorationPath + "signal.png"),
     description: "Robust communication channels between UAVs and IoT sensors",
   },
   {
-    image: landingdecorationPath + "navigate.png",
+    image: asset(landingdecorationPath + "navigate.png"),
     description: "Machine learning algorithms for fire prediction",
   },
   {
-    image: landingdecorationPath + "navigate2.png",
+    image: asset(landingdecorationPath + "navigate2.png"),
     description: "Real-time data visualization dashboard",
   },
 ];
@@ -40,24 +42,24 @@ export const cardData = [
 export const OtherData = [
   {
     topic: "TEAM",
-    Image: "/other/Vector.png",
+    Image: asset("other/Vector.png"),
   },
   {
     topic: "PUBLICATIONS",
-    Image: "/other/fluent_document-folder-16-regular.png",
+    Image: asset("other/fluent_document-folder-16-regular.png"),
   },
   {
     topic: "GALLERY",
-    Image: "/other/clarity_image-gallery-line.png",
+    Image: asset("other/clarity_image-gallery-line.png"),
   },
   {
     topic: "NEWS",
-    Image: "/other/heroicons_newspaper.png",
+    Image: asset("other/heroicons_newspaper.png"),
   },
 ];
 
 export const Footerlogo = [
-  "/footer/Cmu-footer.png",
-  "/footer/Uog-footer.png",
-  "/footer/Rmit-footer.png",
+  asset("footer/Cmu-footer.png"),
+  asset("footer/Uog-footer.png"),
+  asset("footer/Rmit-footer.png"),
 ];
