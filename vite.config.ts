@@ -4,7 +4,7 @@ import tailwindcss from "tailwindcss";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/",
+  base: "/FireFly-landing/",
   plugins: [react()],
   css: {
     postcss: {
