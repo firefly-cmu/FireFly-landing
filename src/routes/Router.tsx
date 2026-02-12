@@ -9,7 +9,7 @@ import Gallery from "../page/Gallery";
 import News from "../page/News";
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         <Route path={PATH.HOME} element={<Home />} />
         <Route path={PATH.DASHBOARD} element={<Dashboard />} />
