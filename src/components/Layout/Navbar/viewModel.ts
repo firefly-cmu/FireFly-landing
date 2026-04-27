@@ -11,10 +11,6 @@ const useViewModel = () => {
       path: PATH.HOME,
     },
     {
-      name: "ABOUT",
-      path: PATH.HOME,
-    },
-    {
       name: "DASHBOARD",
       path: PATH.DASHBOARD,
     },
@@ -29,10 +25,6 @@ const useViewModel = () => {
     {
       name: "GALLERY",
       path: PATH.GALLERY,
-    },
-    {
-      name: "NEWS",
-      path: PATH.NEWS,
     },
   ];
   const handleScroll = useCallback(() => {

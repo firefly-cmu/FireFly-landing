@@ -46,9 +46,6 @@ const CoverSlide: React.FC = () => {
             </p>
           </div>
         </div>
-        <button className="text-white text-lg md:text-xl font-semibold mt-6 md:mt-10 border-2 bg-black bg-opacity-40 rounded-lg px-4 md:px-8 py-4 md:py-5 hover:inline-block hover:gradient-text hover:bg-opacity-10 transition-colors duration-300">
-          <p>GET TO KNOW US</p>
-        </button>
       </div>
     </div>
   );

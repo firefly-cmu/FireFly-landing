@@ -6,7 +6,7 @@ import Dashboard from "../page/Dashboard";
 import Team from "../page/Team";
 import Publications from "../page/Publication";
 import Gallery from "../page/Gallery";
-import News from "../page/News";
+
 const Router = () => {
   return (
     <BrowserRouter basename={import.meta.env.BASE_URL}>
@@ -16,7 +16,6 @@ const Router = () => {
         <Route path={PATH.TEAM} element={<Team />} />
         <Route path={PATH.PUBLICATIONS} element={<Publications />} />
         <Route path={PATH.GALLERY} element={<Gallery />} />
-        <Route path={PATH.NEWS} element={<News />} />
       </Routes>
     </BrowserRouter>
   );
